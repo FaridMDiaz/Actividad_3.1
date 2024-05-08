@@ -2,8 +2,8 @@ import 'package:whatsapp_v2/widgets/model/ChatItemModel.dart';
 
 class ChatHelper {
 
-  static var chatList = [ChatItemModel("Alice", "Lunch in the evening?", "16/07/2018"),ChatItemModel("Jack", "Sure", "16/07/2018"),ChatItemModel("Jane", "Meet this week?", "16/07/2018"),
-  ChatItemModel("Ned", "Received!", "16/07/2018"),ChatItemModel("Steve", "I'll come too!", "16/07/2018")];
+  static var chatList = [ChatItemModel("Daniela Mar de Agua", "Vamos a comer?", "16/07/2018"),ChatItemModel("Inge Rey", "El martes hablamos", "16/07/2018"),ChatItemModel("Mavi🌷❤️", "A qué hora venis?", "16/07/2018"),
+  ChatItemModel("Patas", "Pagame animal!", "16/07/2018"),ChatItemModel("Steve", "Steve", "16/07/2018")];
 
   static ChatItemModel getChatItem(int position) {
     return chatList[position];
